@@ -17,6 +17,7 @@ export default function Home() {
       <main>
         <div className="text-red-500">
           <h1>My Portfolio</h1>
+          <h2>Cahnges for an Example of a branch</h2>
         </div>
       </main>
     </>
