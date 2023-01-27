@@ -29,9 +29,12 @@ export default function Header({}: Props) {
             bgColor='transparent'
             />
             <SocialIcon 
+            className='fill-gray'
             url='https://github.com/bHooker014'
             fgColor='gray'
             bgColor='transparent'
+
+
             />            
         </motion.div>
         <motion.div 
@@ -52,8 +55,9 @@ export default function Header({}: Props) {
                 network='email'
                 fgColor='gray'
                 bgColor='transparent'
+
             />
-            <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>Get in touch</p>
+            <p className='uppercase hidden md:inline-flex text-sm text-gray-400 hover:text-[#87ceeb]'>Get in touch</p>
         </motion.div>
     </header>
   )
