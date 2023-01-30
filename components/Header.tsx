@@ -33,8 +33,6 @@ export default function Header({}: Props) {
             url='https://github.com/bHooker014'
             fgColor='gray'
             bgColor='transparent'
-
-
             />            
         </motion.div>
         <motion.div 
