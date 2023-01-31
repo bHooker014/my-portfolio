@@ -5,10 +5,10 @@ import { motion } from 'framer-motion'
 
 type Props = {}
 
-function ExperienceCard({ }: Props) {
+function ExperienceCard(props: Props) {
     console.log()
     return (
-        <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40  '>
+        <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden'>
             <motion.img 
             initial={{
                 opacity: 0,
@@ -18,7 +18,7 @@ function ExperienceCard({ }: Props) {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
 
-            className='rounded-10 xl:w-[200px] xl:h-[200px] object-cover object-center' 
+            className='rounded-10 xl:w-[500px] xl:h-[60px] object-cover object-center' 
             src="/BL_LOGO-201x26.png" 
             alt="Company logo" 
             />
