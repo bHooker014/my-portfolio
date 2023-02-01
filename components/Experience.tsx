@@ -38,7 +38,7 @@ const Experiance = (props: Props) => {
       <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl text-center'>Work Experience</h3>
 
       <div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory'>
-        {CardData.map((data, index) => ( <ExperienceCard key={index} props={data} /> ))}
+        {CardData.map((data, index) => ( <ExperienceCard key={index} /> ))}
       </div>
     </motion.div>
   )

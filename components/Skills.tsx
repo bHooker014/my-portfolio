@@ -5,6 +5,7 @@ import Skill from './Skill'
 type Props = {}
 
 const Skills = (props: Props) => {
+    
     return (
         <motion.div 
         initial={{ opacity: 0 }}
