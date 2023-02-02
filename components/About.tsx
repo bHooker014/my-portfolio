@@ -31,7 +31,7 @@ const About = (props: Props) => {
             once: true,
             }}
             className="-mb-20  md:mb-0 flex-shrink-0 w-40 h-46 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w[500px] xl:h-[500px]" 
-            src='/meNtisa.jpg' />
+            src='/staticMedia/meNtisa.jpg' />
             <div className='space-y-10 px-0 md:px-10'>
                 <h4 className='text-4xl font-semibold'>Here is a <span className='underline decoration-[#87ceeb]'>little</span> background</h4>
             </div>

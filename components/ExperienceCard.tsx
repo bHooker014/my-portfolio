@@ -17,16 +17,15 @@ function ExperienceCard(props: Props) {
             transition={{ duration:1.5 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-
             className='rounded-10 xl:w-[500px] xl:h-[60px] object-cover object-center' 
-            src="/BL_LOGO-201x26.png" 
+            src="/staticMedia/BL_LOGO-201x26.png" 
             alt="Company logo" 
             />
             <div className='px-0 md:px-10'>
                 <h4 className='text-4xl font-light'>Job Title</h4>
                 <p className='font-bold text-2xl mt-1'>Company Name </p>
                 <div className='flex space-x-2 my-2'>
-                    <Image src="" alt="tech logo" />
+                    <img src="/staticMedia/html5.png" alt="tech logo" />
                     {/* {Tech used } */}
                     {/* {Tech used } */}
                     {/* {Tech used } */}
