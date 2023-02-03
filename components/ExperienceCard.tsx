@@ -12,7 +12,7 @@ function ExperienceCard(props: Props) {
             <motion.img 
             initial={{
                 opacity: 0,
-                y: -100,
+                y: -50,
             }}
             transition={{ duration:1.5 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -25,7 +25,26 @@ function ExperienceCard(props: Props) {
                 <h4 className='text-4xl font-light'>Job Title</h4>
                 <p className='font-bold text-2xl mt-1'>Company Name </p>
                 <div className='flex space-x-2 my-2'>
-                    <img src="/staticMedia/html5.png" alt="tech logo" />
+                    <img 
+                    className='w-[50px] h-[50px] object-center bg-[#e3f1fa] p-1'
+                    src="/staticMedia/pngwing.com.png" 
+                    alt="tech logo" 
+                    />
+                    <img 
+                    className='w-[50px] h-[50px] object-center bg-[#e3f1fa] p-1'
+                    src="/staticMedia/logo192.png" 
+                    alt="tech logo" 
+                    />
+                    <img 
+                    className='w-[50px] h-[50px] object-center bg-[#e3f1fa] p-1'
+                    src="/staticMedia/node.png" 
+                    alt="tech logo" 
+                    />
+                    <img 
+                    className='w-[50px] h-[50px] object-center bg-[#e3f1fa] p-1'
+                    src="/staticMedia/tailwind.png" 
+                    alt="tech logo" 
+                    />
                     {/* {Tech used } */}
                     {/* {Tech used } */}
                     {/* {Tech used } */}
